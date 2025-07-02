@@ -1,0 +1,38 @@
+.hero {
+  padding: 120px 20px;
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), 
+              url('https://images.unsplash.com/photo-1543269865-cbf427effbad') no-repeat center/cover;
+  color: white;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 15px 30px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #e63946;
+}
+.hero-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.5);
+}
