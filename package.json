@@ -1,6 +1,4 @@
-
 {
-  "homepage": "https://shadowzee123.github.io/get-a-job",
   "description": "A React application to help users find job opportunities.",
   "keywords": [
     "react",
@@ -8,6 +6,9 @@
     "opportunities",
     "employment"
   ],
+ 
+  "homepage": "https://shadowzee123.github.io/get-a-job",
+
   "name": "get-a-job",
   "version": "1.0.0",
   "private": true,
@@ -18,14 +19,11 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "prestart": "npm install",
-    "prebuild": "npm install",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "browserslist": {
     "production": [
       ">0.2%",
